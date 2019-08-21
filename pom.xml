@@ -43,9 +43,9 @@
   </ciManagement>
 
   <scm>
-    <connection>scm:git:ssh://github.com/kohsuke/winsw.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/kohsuke/winsw.git</developerConnection>
-    <url>https://github.com/kohsuke/winsw</url>
+    <connection>scm:git:ssh://github.com/jenkinsci/winsw-maven-packaging.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/winsw-maven-packaging.git</developerConnection>
+    <url>https://github.com/jenkinsci/winsw-maven-packaging</url>
     <tag>HEAD</tag>
   </scm>
   
