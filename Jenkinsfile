@@ -17,10 +17,6 @@ node('maven') {
         stage('Build') {
            infra.runMaven(["clean", "install"])
         }
-
-        stage('Archive') {
-            archiveArtifacts artifacts: 'target/**/*.jar,target/**/*.zip'
-        }
     }
 }
 
