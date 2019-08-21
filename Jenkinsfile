@@ -15,7 +15,7 @@ node('maven') {
         }
 
         stage('Build') {
-           runMaven(["clean", "install"])
+           infra.runMaven(["clean", "install"])
         }
 
         stage('Archive') {
