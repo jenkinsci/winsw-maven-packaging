@@ -3,7 +3,7 @@
   <groupId>com.sun.winsw</groupId>
   <artifactId>winsw</artifactId>
   <packaging>pom</packaging>
-  <version>2.4.0</version>
+  <version>2.4.1-SNAPSHOT</version>
   <name>Windows Service Wrapper (WinSW)</name>
   <url>https://github.com/kohsuke/winsw/</url>
    
@@ -46,7 +46,7 @@
     <connection>scm:git:ssh://github.com/jenkinsci/winsw-maven-packaging.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/jenkinsci/winsw-maven-packaging.git</developerConnection>
     <url>https://github.com/jenkinsci/winsw-maven-packaging</url>
-    <tag>winsw-2.4.0</tag>
+    <tag>HEAD</tag>
   </scm>
   
   <build>
