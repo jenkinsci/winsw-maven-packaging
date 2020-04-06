@@ -76,6 +76,8 @@
                 <attachArtifact file="${project.build.directory}/bin/winsw.exe" type="exe" classifier="bin" />
                 <get src="https://github.com/winsw/winsw/releases/download/v${winsw.version}/WinSW.NET4.exe" dest="${project.build.directory}/bin/winsw4.exe" />
                 <attachArtifact file="${project.build.directory}/bin/winsw4.exe" type="exe" classifier="net4" />
+                <get src="https://github.com/winsw/winsw/releases/download/v${winsw.version}/WinSW.NET461.exe" dest="${project.build.directory}/bin/winsw461.exe" />
+                <attachArtifact file="${project.build.directory}/bin/winsw461.exe" type="exe" classifier="net461" />
               </tasks>
             </configuration>
           </execution>
