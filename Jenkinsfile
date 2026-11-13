@@ -8,7 +8,7 @@ properties([[$class: 'BuildDiscarderProperty',
 /* These platforms correspond to labels in ci.jenkins.io, see:
  *  https://github.com/jenkins-infra/documentation/blob/master/ci.adoc
  */
-node('maven') {
+node('maven-25') {
     timestamps {
         stage('Checkout') {
             checkout scm
